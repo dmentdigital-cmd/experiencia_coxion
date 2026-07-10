@@ -1,0 +1,196 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - generic [ref=e3]:
+      - img "Logo Coxión" [ref=e5]
+      - generic [ref=e6]:
+        - link "Experiencia" [ref=e7] [cursor=pointer]:
+          - /url: "#experience"
+        - link "Filosofía" [ref=e8] [cursor=pointer]:
+          - /url: "#philosophy"
+        - link "Quiénes Somos" [ref=e9] [cursor=pointer]:
+          - /url: "#quienes-somos"
+        - link "Preguntas" [ref=e10] [cursor=pointer]:
+          - /url: "#faqs"
+        - link "Contacto" [ref=e11] [cursor=pointer]:
+          - /url: "#inquiry"
+      - link "Crea tu experiencia" [ref=e13] [cursor=pointer]:
+        - /url: https://wa.link/2tw66l
+  - main [ref=e14]:
+    - generic [ref=e15]:
+      - img "Alta gastronomía en Bogotá - Coxión" [ref=e17]
+      - generic [ref=e19]:
+        - heading "Tu mesa, nuestra cocina. Porque la mejor versión de cualquier reunión no está solo en el plato, sino en todo lo que pasa alrededor de él. Cocinamos para que tú y los tuyos solo se preocupen por estar juntos." [level=1] [ref=e20]:
+          - text: Tu mesa, nuestra cocina.
+          - generic [ref=e21]: Porque la mejor versión de cualquier reunión no está solo en el plato, sino en todo lo que pasa alrededor de él. Cocinamos para que tú y los tuyos solo se preocupen por estar juntos.
+        - link "Crea tu experiencia" [ref=e23] [cursor=pointer]:
+          - /url: https://wa.link/2tw66l
+    - generic [ref=e25]:
+      - img "Cami y Alex - Coxión" [ref=e28]
+      - generic [ref=e29]:
+        - generic [ref=e30]: Quiénes Somos
+        - heading "Cocina y Conexión" [level=2] [ref=e31]
+        - generic [ref=e32]:
+          - paragraph [ref=e33]: "En Coxión creemos que la mejor versión de cualquier reunión pasa por la comida. No solo por lo que hay en el plato, sino por lo que pasa alrededor de la mesa: las conversaciones, las risas, los momentos que se quedan grabados."
+          - paragraph [ref=e34]:
+            - text: Somos
+            - strong [ref=e35]: Cami y Alex
+            - text: ", y llevamos la experiencia de cocinar a tu espacio para que tú y los tuyos solo se preocupen por disfrutar. Llegamos con todo listo, cocinamos para ti y nos vamos dejando una mesa llena y un recuerdo que vale la pena."
+          - paragraph [ref=e36]: "Eso es Coxión: reconectar a las personas con el alimento, con la cocina y con lo que se puede compartir alrededor de una mesa."
+    - generic [ref=e39]:
+      - generic [ref=e40]:
+        - generic [ref=e41]: Filosofía
+        - heading "Responsabilidad & Origen" [level=2] [ref=e42]
+      - generic [ref=e44]:
+        - paragraph [ref=e45]: En COXION, la calidad es una responsabilidad que asumimos mucho antes de que el plato llegue a tu mesa, seleccionando materias primas únicas que no se encuentran en cualquier cocina. No solo elegimos con rigor lo que compramos, sino que producimos artesanalmente nuestras propias bases, salsas y condimentos para evitar los ultraprocesados; porque cuidamos el sabor y priorizamos nuestra identidad.
+        - paragraph [ref=e46]: "Cocinamos con ingredientes de calidad, libre de ultraprocesados y frituras, priorizando tu bienestar. Además, cerramos el ciclo haciéndonos responsables de nuestros desechos: redistribuimos los materiales no orgánicos y convertimos los residuos orgánicos en compost a través de alianzas estratégicas. Para nosotros, cuidar lo que cocinamos es cuidar el origen y el destino de todo lo que nos nutre."
+    - generic [ref=e48]:
+      - generic [ref=e50]:
+        - heading "EXPERIENCIAS" [level=2] [ref=e51]
+        - paragraph [ref=e52]: Diseñamos momentos a medida, desde la intimidad de un hogar hasta la grandiosidad de una celebración corporativa.
+      - generic [ref=e53]:
+        - generic [ref=e54]:
+          - img "Chef en casa Coxión" [ref=e55]
+          - generic [ref=e56]:
+            - generic [ref=e57]: Privado
+            - heading "Chef en casa" [level=3] [ref=e58]
+            - paragraph [ref=e60]: Creamos experiencias gastronómicas privadas para tus momentos más importantes. Ingredientes de calidad y técnica profesional en tu propia mesa.
+        - generic [ref=e61]:
+          - img "Catering Social Coxión" [ref=e62]
+          - generic [ref=e63]:
+            - generic [ref=e64]: Celebración
+            - heading "Catering social" [level=3] [ref=e65]
+            - paragraph [ref=e67]: Nos encargamos de la cocina, el montaje y el servicio. Tú solo encárgate de crear los recuerdos.
+        - generic [ref=e68]:
+          - img "Catering Corporativo Coxión" [ref=e69]
+          - generic [ref=e70]:
+            - generic [ref=e71]: Exclusividad
+            - heading "Catering corporativo" [level=3] [ref=e72]
+            - paragraph [ref=e74]: Transforma tus eventos corporativos en espacios de bienestar y conexión con una cocina de autor que proyecta la mejor imagen de tu empresa.
+    - generic [ref=e76]:
+      - generic [ref=e77]:
+        - generic [ref=e78]: Nuestros Chefs
+        - heading "El Alma detrás de la Cocina" [level=2] [ref=e79]
+      - generic [ref=e80]:
+        - img "Cami y Alex" [ref=e83]
+        - generic [ref=e84]:
+          - generic [ref=e85]:
+            - heading "Cami & Alex" [level=3] [ref=e86]
+            - paragraph [ref=e87]: Alex es un chef cuya cocina se nutre de técnicas y sabores recolectados en sus viajes por el mundo. Su propuesta se aleja de las tendencias para centrarse en una cocina basada en ingredientes únicos y de calidad, utilizando la fermentación como herramienta para crear sabores únicos y de carácter propio.
+            - paragraph [ref=e88]: Cami es una pastelera formada en Buenos Aires que busca el equilibrio perfecto, donde el dulce resalta el sabor real de los ingredientes. Su sensibilidad por el detalle trasciende a la decoración y el montaje de mesas, transformando cada espacio en una experiencia visual especial antes del primer bocado.
+          - generic [ref=e89]:
+            - paragraph [ref=e90]: "\"Juntos, combinan técnica, pasión y un ojo clínico para los detalles, creyendo profundamente en el impacto de lo que crean para COXION\""
+            - link "Habla con nosotros por WhatsApp" [ref=e91] [cursor=pointer]:
+              - /url: https://wa.link/2tw66l
+    - generic [ref=e93]:
+      - generic [ref=e94]: Testimonios
+      - heading "Lo que dicen nuestros invitados" [level=2] [ref=e95]
+      - generic [ref=e96]:
+        - generic [ref=e97]:
+          - img "Testimonio" [ref=e98]
+          - generic [ref=e99]:
+            - generic [ref=e100]: star
+            - generic [ref=e101]: star
+            - generic [ref=e102]: star
+            - generic [ref=e103]: star
+            - generic [ref=e104]: star
+          - paragraph [ref=e105]: "\"Una experiencia increíble. La atención al detalle y el sabor de cada plato fue excepcional.\""
+        - generic [ref=e106]:
+          - img "Testimonio" [ref=e107]
+          - generic [ref=e108]:
+            - generic [ref=e109]: star
+            - generic [ref=e110]: star
+            - generic [ref=e111]: star
+            - generic [ref=e112]: star
+            - generic [ref=e113]: star
+          - paragraph [ref=e114]: "\"Coxión transformó nuestro evento. La presentación fue impecable y el sabor inigualable.\""
+        - generic [ref=e115]:
+          - img "Testimonio" [ref=e116]
+          - generic [ref=e117]:
+            - generic [ref=e118]: star
+            - generic [ref=e119]: star
+            - generic [ref=e120]: star
+            - generic [ref=e121]: star
+            - generic [ref=e122]: star
+          - paragraph [ref=e123]: "\"Realmente pudimos disfrutar del momento con nuestros amigos mientras ellos se encargaban de todo.\""
+    - generic [ref=e125]:
+      - generic [ref=e126]: Galería
+      - heading "Instantes Coxión" [level=2] [ref=e127]
+      - generic [ref=e128]:
+        - img [ref=e130]
+        - img [ref=e132]
+        - img [ref=e134]
+        - img [ref=e136]
+      - generic [ref=e137]:
+        - img [ref=e139]
+        - img [ref=e141]
+    - generic [ref=e143]:
+      - heading "¿Cómo crear tu experiencia?" [level=2] [ref=e145]
+      - generic [ref=e146]:
+        - generic [ref=e147]:
+          - generic [ref=e149]: "01"
+          - heading "Nos escribes" [level=4] [ref=e150]
+        - generic [ref=e151]:
+          - generic [ref=e153]: "02"
+          - heading "Armamos tu propuesta" [level=4] [ref=e154]
+        - generic [ref=e155]:
+          - generic [ref=e157]: "03"
+          - heading "Concretamos el evento" [level=4] [ref=e158]
+        - generic [ref=e159]:
+          - generic [ref=e161]: "04"
+          - heading "Disfrutas de tu experiencia" [level=4] [ref=e162]
+      - link "Escríbenos" [ref=e165] [cursor=pointer]:
+        - /url: https://wa.link/2tw66l
+    - generic [ref=e167]:
+      - generic [ref=e168]: mail
+      - heading "Déjanos tu correo" [level=3] [ref=e169]
+      - paragraph [ref=e170]: Recibe una guía gratuita para organizar una cena especial en casa, inspiración para tu cocina y acceso anticipado a nuestras fechas y promociones.
+      - generic [ref=e171]:
+        - textbox "Tu correo electrónico" [ref=e172]
+        - button "Suscribirme" [ref=e173] [cursor=pointer]
+    - generic [ref=e175]:
+      - generic [ref=e176]: Resolviendo dudas
+      - heading "Preguntas Frecuentes" [level=2] [ref=e177]
+      - generic [ref=e178]:
+        - group [ref=e179]:
+          - generic "¿Qué tipo de eventos hacen? expand_more" [ref=e180] [cursor=pointer]:
+            - generic [ref=e181]: ¿Qué tipo de eventos hacen?
+            - generic [ref=e182]: expand_more
+        - group [ref=e183]:
+          - generic "¿Con cuánta anticipación debo reservar? expand_more" [ref=e184] [cursor=pointer]:
+            - generic [ref=e185]: ¿Con cuánta anticipación debo reservar?
+            - generic [ref=e186]: expand_more
+        - group [ref=e187]:
+          - generic "¿Cuánto vale un evento con nosotros? expand_more" [ref=e188] [cursor=pointer]:
+            - generic [ref=e189]: ¿Cuánto vale un evento con nosotros?
+            - generic [ref=e190]: expand_more
+        - group [ref=e191]:
+          - generic "¿Cómo funciona el chef en casa? expand_more" [ref=e192] [cursor=pointer]:
+            - generic [ref=e193]: ¿Cómo funciona el chef en casa?
+            - generic [ref=e194]: expand_more
+    - generic [ref=e196]:
+      - heading "Diseñemos juntos tu próxima experiencia gastronómica" [level=2] [ref=e197]
+      - paragraph [ref=e198]: Permítenos diseñar la arquitectura sensorial de tu próximo encuentro.
+      - link "Crea tu experiencia" [ref=e200] [cursor=pointer]:
+        - /url: https://wa.link/2tw66l
+  - contentinfo [ref=e201]:
+    - img "Logo Coxión" [ref=e203]
+    - generic [ref=e204]:
+      - link "WhatsApp" [ref=e205] [cursor=pointer]:
+        - /url: https://wa.link/2tw66l
+      - link "Instagram" [ref=e206] [cursor=pointer]:
+        - /url: https://www.instagram.com/coxion.co?igsh=MTNiZGo4emE5dXNkdA==
+      - link "TikTok" [ref=e207] [cursor=pointer]:
+        - /url: https://www.tiktok.com/@coxion.co?_r=1&_t=ZS-95ks7teepLG
+      - link "coxion.co@gmail.com" [ref=e208] [cursor=pointer]:
+        - /url: mailto:coxion.co@gmail.com
+    - generic [ref=e209]:
+      - paragraph [ref=e210]: No es azar, es propósito
+      - paragraph [ref=e211]:
+        - text: © 2026 Coxión | Orquestado por
+        - link "Dmente Digital" [ref=e212] [cursor=pointer]:
+          - /url: http://dmentedigital.co/
+        - text: . All rights reserved.
+  - link "Chat on WhatsApp" [ref=e213] [cursor=pointer]:
+    - /url: https://wa.link/2tw66l
+    - img [ref=e214]
+    - generic: Crea tu experiencia

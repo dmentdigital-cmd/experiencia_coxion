@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html class="light" lang="es">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    
+    <!-- SEO / AEO / GEO Optimization -->
+    <title>Coxión | Cocina y Conexión - Catering de Autor en Bogotá</title>
+    <meta name="description" content="Coxión: Tu mesa, nuestra cocina. Catering de autor y experiencias gastronómicas en Bogotá. Sabores que conectan, reuniones con propósito y cocina responsable."/>
+    <meta name="keywords" content="catering autor bogota, cocina y conexión, eventos boutique bogota, cenas privadas bogota, chef alex bogota, dmente digital, sostenibilidad gastronómica"/>
+    <meta name="author" content="Dmente Digital"/>
+    <link rel="canonical" href="https://coxion.co/"/>
+    
+    <!-- Geo Tags -->
+    <meta name="geo.region" content="CO-DC" />
+    <meta name="geo.placename" content="Bogotá" />
+    <meta name="geo.position" content="4.6097102;-74.081749" />
+    <meta name="ICBM" content="4.6097102, -74.081749" />
+    
+    <!-- Open Graph / Social Media -->
+    <meta property="og:title" content="Coxión | Cocina, Conexión y Propósito en Bogotá"/>
+    <meta property="og:description" content="Catering de autor y experiencias gastronómicas boutique. Tu mesa, nuestra cocina. Sabores que conectan en Bogotá."/>
+    <meta property="og:image" content="logos/logo-full.png"/>
+    <meta property="og:url" content="https://coxion.co/"/>
+    <meta property="og:type" content="website"/>
+    
+    <!-- Fonts & Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Abril+Fatface&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+
+    <!-- Google Analytics (GA4) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YPWGWS6XPE"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-YPWGWS6XPE');
+    </script>
+
+    <!-- Meta Pixel -->
+    <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', 'FACEBOOK_PIXEL_ID');
+    fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=FACEBOOK_PIXEL_ID&ev=PageView&noscript=1"/></noscript>
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "on-secondary-fixed": "#311300",
+                    "surface": "#fff8f3",
+                    "primary-container": "#414934",
+                    "error-container": "#ffdad6",
+                    "tertiary-fixed-dim": "#c0cba8",
+                    "secondary-container": "#fd9b56",
+                    "background": "#fff8f3",
+                    "tertiary": "#2a331b",
+                    "on-surface": "#221a0f",
+                    "on-tertiary": "#ffffff",
+                    "on-primary-container": "#afb89d",
+                    "inverse-primary": "#c1caae",
+                    "outline-variant": "#c6c7bd",
+                    "on-primary-fixed": "#171e0c",
+                    "outline": "#76786f",
+                    "on-tertiary-container": "#aeb997",
+                    "on-surface-variant": "#464840",
+                    "surface-container-high": "#f6e6d2",
+                    "surface-container-highest": "#f0e0cd",
+                    "on-secondary-fixed-variant": "#733600",
+                    "primary": "#2b321f",
+                    "on-secondary-container": "#703500",
+                    "tertiary-fixed": "#dce7c3",
+                    "on-primary-fixed-variant": "#424a35",
+                    "surface-tint": "#59614b",
+                    "on-primary": "#ffffff",
+                    "surface-container-low": "#fff2e2",
+                    "on-error-container": "#93000a",
+                    "secondary": "#954905",
+                    "on-tertiary-fixed-variant": "#404a30",
+                    "on-secondary": "#ffffff",
+                    "secondary-fixed-dim": "#ffb787",
+                    "error": "#ba1a1a",
+                    "inverse-surface": "#382f22",
+                    "surface-bright": "#fff8f3",
+                    "primary-fixed-dim": "#c1caae",
+                    "secondary-fixed": "#ffdcc7",
+                    "surface-variant": "#f0e0cd",
+                    "inverse-on-surface": "#feeedb",
+                    "primary-fixed": "#dde6c9",
+                    "on-tertiary-fixed": "#161e08",
+                    "surface-container": "#fbecd8",
+                    "surface-dim": "#e7d8c5",
+                    "surface-container-lowest": "#ffffff",
+                    "on-error": "#ffffff",
+                    "tertiary-container": "#404a2f",
+                    "on-background": "#221a0f",
+                    // Dmente Branding
+                    "dm-navy": "#061421",
+                    "dm-indigo": "#2bebd2",
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.125rem",
+                    "lg": "0.25rem",
+                    "xl": "0.5rem",
+                    "full": "0.75rem"
+            },
+            "fontFamily": {
+                    "headline": ["Plus Jakarta Sans", "sans-serif"],
+                    "body": ["Plus Jakarta Sans", "sans-serif"],
+                    "label": ["Plus Jakarta Sans", "sans-serif"],
+                    "display": ["Abril Fatface", "cursive"]
+            },
+            "animation": {
+                "subtle-zoom": "subtle-zoom 20s infinite alternate linear",
+                "float": "float 6s ease-in-out infinite",
+            },
+            "keyframes": {
+                "subtle-zoom": {
+                    "0%": { transform: "scale(1)" },
+                    "100%": { transform: "scale(1.1)" }
+                },
+                "float": {
+                    "0%, 100%": { transform: "translateY(0)" },
+                    "50%": { transform: "translateY(-10px)" }
+                }
+            }
+          },
+        },
+      }
+    </script>
+    <style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+        }
+        .glass-nav {
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+        }
+        .hide-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        .hide-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+    </style>
+    
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Coxión",
+      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDV5j3WVqO2_kyVjXrqoT5ys-TIS_Ux_GthI2DlCzXY8QAsh8Elkqh-FaenNbjaIc5O6YW2jZXN0sVHJ6u3WFs1S0koDXkX0mNtQllydbbVfWDoh0prB36sBvJVkKdVG_IZsVGPM6Pdjf0d4KRCv8YVyrKmyZLt4apHQ--yJ5UOQ49_SdOYFB1XVm6iJrUMdhD_PuDHZBdLFvfxlCss4yjcwFIHpUP-GQ4MK1m9ZrVF-nrf7mpQLN6CU9RqxbD4MS08D9BDApdtGuk",
+      "description": "Catering de autor y experiencias gastronómicas en Bogotá. Coxión ofrece servicios de alta cocina personalizada.",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Bogotá, Colombia",
+        "addressLocality": "Bogotá",
+        "addressRegion": "Cundinamarca",
+        "postalCode": "110111",
+        "addressCountry": "CO"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 4.6097102,
+        "longitude": -74.081749
+      },
+      "url": "https://coxion.co/",
+      "telephone": "+573000000000",
+      "priceRange": "$$$"
+    }
+    </script>
+    
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Qué tipos de eventos cubren?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cubrimos desde cenas privadas íntimas (Chef en Casa) y eventos sociales boutique hasta grandes celebraciones corporativas en Bogotá."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Ofrecen opciones vegetarianas o veganas?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí, diseñamos menús de autor personalizados, libres de ultraprocesados, que incluyen opciones vegetarianas y veganas priorizando ingredientes agroecológicos."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cuál es su enfoque en sostenibilidad?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Producimos artesanalmente nuestras bases para evitar ultraprocesados y cerramos el ciclo convirtiendo residuos orgánicos en compost."
+          }
+        }
+      ]
+    }
+    </script>
+</head>
+<body class="bg-background text-on-surface font-body selection:bg-secondary-container selection:text-on-secondary-container">
+    <!-- TopNavBar -->
+    <nav class="fixed top-0 w-full z-50 bg-stone-50/80 dark:bg-stone-950/80 backdrop-blur-xl border-b border-stone-200/50">
+        <div class="flex justify-between items-center w-full px-8 py-4 max-w-screen-2xl mx-auto">
+            <div class="flex items-center gap-3">
+                <img src="logos/logo-1.png" alt="Logo Coxión" class="h-16 md:h-20 w-auto object-contain">
+            </div>
+            <div class="hidden md:flex items-center gap-12">
+                <a class="text-stone-800 dark:text-stone-100 font-semibold text-[10px] tracking-[0.2em] uppercase hover:text-secondary transition-all duration-300" href="#experience">Experiencia</a>
+                <a class="text-stone-600 dark:text-stone-400 text-[10px] tracking-[0.2em] uppercase hover:text-secondary transition-all duration-300" href="#philosophy">Filosofía</a>
+                <a class="text-stone-600 dark:text-stone-400 text-[10px] tracking-[0.2em] uppercase hover:text-secondary transition-all duration-300" href="#quienes-somos">Quiénes Somos</a>
+                <a class="text-stone-600 dark:text-stone-400 text-[10px] tracking-[0.2em] uppercase hover:text-secondary transition-all duration-300" href="#faqs">Preguntas</a>
+                <a class="text-stone-600 dark:text-stone-400 text-[10px] tracking-[0.2em] uppercase hover:text-secondary transition-all duration-300" href="#inquiry">Contacto</a>
+            </div>
+            <div class="flex items-center gap-4">
+                <button class="text-stone-800 dark:text-stone-100 p-2 md:hidden">
+                    <span class="material-symbols-outlined" data-icon="menu">menu</span>
+                </button>
+                <a href="https://wa.link/2tw66l" target="_blank" class="hidden md:block bg-primary text-on-primary px-8 py-2.5 rounded-full text-[10px] uppercase tracking-widest font-bold hover:bg-secondary transition-all">
+                    Crea tu experiencia
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="relative h-screen w-full flex items-center justify-center overflow-hidden">
+            <div class="absolute inset-0 z-0 scale-105 animate-subtle-zoom">
+                <img class="w-full h-full object-cover" alt="Alta gastronomía en Bogotá - Coxión" src="https://images.unsplash.com/photo-1547928576-a4a33237cea2?auto=format&fit=crop&q=80&w=1920"/>
+                <div class="absolute inset-0 bg-primary/40 bg-gradient-to-b from-transparent via-primary/20 to-primary/80"></div>
+            </div>
+            <div class="relative z-10 text-center px-6 max-w-5xl">
+                <h1 class="font-display text-4xl md:text-7xl text-surface leading-[1.2] tracking-normal mb-10 drop-shadow-2xl">
+                    Tu mesa, nuestra cocina. <br/>
+                    <span class="italic font-light opacity-95 text-lg md:text-2xl text-surface/90 block mt-8 max-w-3xl mx-auto leading-relaxed tracking-wider">
+                        Porque la mejor versión de cualquier reunión no está solo en el plato, sino en todo lo que pasa alrededor de él. Cocinamos para que tú y los tuyos solo se preocupen por estar juntos.
+                    </span>
+                </h1>
+                <div class="flex justify-center mt-12">
+                    <a href="https://wa.link/2tw66l" target="_blank" class="bg-gradient-to-r from-primary to-primary-container text-on-primary px-12 py-6 rounded-full font-label tracking-[0.2em] uppercase text-[10px] hover:opacity-95 transition-all duration-500 shadow-2xl inline-block border border-white/10">
+                        Crea tu experiencia
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="quienes-somos" class="bg-surface-container-low py-32 md:py-56 px-8 relative overflow-hidden">
+            <div class="max-w-screen-xl mx-auto grid md:grid-cols-12 gap-20 items-center">
+                <div class="md:col-span-5 relative">
+                    <div class="aspect-[4/5] overflow-hidden rounded-2xl shadow-2xl ring-1 ring-black/5">
+                        <img class="w-full h-full object-cover grayscale-[10%] hover:scale-105 transition-transform duration-1000" alt="Cami y Alex - Coxión" src="https://images.unsplash.com/photo-1556910103-1c02745aae4d?auto=format&fit=crop&q=80&w=800"/>
+                    </div>
+                </div>
+                <div class="md:col-span-7 md:pl-20 text-center md:text-left">
+                    <span class="font-label text-secondary tracking-[0.3em] uppercase text-[10px] mb-8 block font-bold">Quiénes Somos</span>
+                    <h2 class="font-headline text-5xl md:text-7xl text-primary leading-[0.9] mb-12 uppercase">Cocina y Conexión</h2>
+                    <div class="space-y-8 text-on-surface-variant font-body font-light text-lg leading-relaxed max-w-2xl">
+                        <p>En Coxión creemos que la mejor versión de cualquier reunión pasa por la comida. No solo por lo que hay en el plato, sino por lo que pasa alrededor de la mesa: las conversaciones, las risas, los momentos que se quedan grabados.</p>
+                        <p>Somos <strong>Cami y Alex</strong>, y llevamos la experiencia de cocinar a tu espacio para que tú y los tuyos solo se preocupen por disfrutar. Llegamos con todo listo, cocinamos para ti y nos vamos dejando una mesa llena y un recuerdo que vale la pena.</p>
+                        <p>Eso es Coxión: reconectar a las personas con el alimento, con la cocina y con lo que se puede compartir alrededor de una mesa.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Philosophy Section -->
+        <section id="philosophy" class="py-32 bg-primary/5 px-8">
+            <div class="max-w-screen-xl mx-auto">
+                <div class="grid md:grid-cols-12 gap-16 items-start">
+                    <div class="md:col-span-4">
+                        <span class="font-label text-secondary tracking-[0.3em] uppercase text-[10px] mb-8 block font-bold">Filosofía</span>
+                        <h2 class="font-headline text-5xl text-primary leading-[0.9]">Responsabilidad & Origen</h2>
+                    </div>
+                    <div class="md:col-span-8">
+                        <div class="space-y-8 text-on-surface-variant font-body font-light text-xl leading-relaxed">
+                            <p>En COXION, la calidad es una responsabilidad que asumimos mucho antes de que el plato llegue a tu mesa, seleccionando materias primas únicas que no se encuentran en cualquier cocina. No solo elegimos con rigor lo que compramos, sino que producimos artesanalmente nuestras propias bases, salsas y condimentos para evitar los ultraprocesados; porque cuidamos el sabor y priorizamos nuestra identidad.</p>
+                            <p>Cocinamos con ingredientes de calidad, libre de ultraprocesados y frituras, priorizando tu bienestar. Además, cerramos el ciclo haciéndonos responsables de nuestros desechos: redistribuimos los materiales no orgánicos y convertimos los residuos orgánicos en compost a través de alianzas estratégicas. Para nosotros, cuidar lo que cocinamos es cuidar el origen y el destino de todo lo que nos nutre.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="py-32 md:py-56 px-8 bg-surface overflow-x-hidden">
+            <div class="max-w-screen-2xl mx-auto">
+                <div class="flex flex-col md:flex-row justify-between items-end mb-24 gap-12 text-center md:text-left">
+                    <div class="max-w-3xl">
+                        <h2 class="font-headline text-6xl md:text-8xl text-primary mb-8 leading-[0.85] uppercase">EXPERIENCIAS</h2>
+                        <p class="text-on-surface-variant font-light text-2xl leading-relaxed">Diseñamos momentos a medida, desde la intimidad de un hogar hasta la grandiosidad de una celebración corporativa.</p>
+                    </div>
+                </div>
+                
+                <div class="flex md:grid md:grid-cols-3 gap-12 overflow-x-auto pb-12 snap-x snap-mandatory md:overflow-visible hide-scrollbar">
+                    <!-- Exp 1: Chef en Casa -->
+                    <div class="min-w-[85vw] md:min-w-0 snap-center group relative overflow-hidden rounded-2xl aspect-[3/4] md:mt-16 bg-surface-container-low shadow-xl transition-all duration-500 hover:shadow-2xl">
+                        <img class="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110 opacity-90" alt="Chef en casa Coxión" src="https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&q=80&w=800"/>
+                        <div class="absolute inset-0 bg-gradient-to-t from-primary/95 via-primary/30 to-transparent flex flex-col justify-end p-12 transition-all duration-500">
+                            <span class="text-surface font-label text-[9px] tracking-[0.4em] uppercase mb-4 opacity-70">Privado</span>
+                            <h3 class="text-surface font-headline text-4xl mb-6">Chef en casa</h3>
+                            <div class="max-h-[200px] overflow-hidden transition-all duration-700 opacity-100">
+                                <p class="text-surface/90 font-light text-base leading-relaxed">Creamos experiencias gastronómicas privadas para tus momentos más importantes. Ingredientes de calidad y técnica profesional en tu propia mesa.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Exp 2: Catering Social -->
+                    <div class="min-w-[85vw] md:min-w-0 snap-center group relative overflow-hidden rounded-2xl aspect-[3/4] bg-surface-container-low shadow-xl transition-all duration-500 hover:shadow-2xl">
+                        <img class="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110 opacity-90" alt="Catering Social Coxión" src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&q=80&w=800"/>
+                        <div class="absolute inset-0 bg-gradient-to-t from-primary/95 via-primary/30 to-transparent flex flex-col justify-end p-12 transition-all duration-500">
+                            <span class="text-surface font-label text-[9px] tracking-[0.4em] uppercase mb-4 opacity-70">Celebración</span>
+                            <h3 class="text-surface font-headline text-4xl mb-6">Catering social</h3>
+                            <div class="max-h-[200px] overflow-hidden transition-all duration-700 opacity-100">
+                                <p class="text-surface/90 font-light text-base leading-relaxed">Nos encargamos de la cocina, el montaje y el servicio. Tú solo encárgate de crear los recuerdos.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Exp 3: Catering Corporativo -->
+                    <div class="min-w-[85vw] md:min-w-0 snap-center group relative overflow-hidden rounded-2xl aspect-[3/4] md:mt-32 bg-surface-container-low shadow-xl transition-all duration-500 hover:shadow-2xl">
+                        <img class="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110 opacity-90" alt="Catering Corporativo Coxión" src="https://images.unsplash.com/photo-1543007630-9710e4a00a20?auto=format&fit=crop&q=80&w=800"/>
+                        <div class="absolute inset-0 bg-gradient-to-t from-primary/95 via-primary/30 to-transparent flex flex-col justify-end p-12 transition-all duration-500">
+                            <span class="text-surface font-label text-[9px] tracking-[0.4em] uppercase mb-4 opacity-70">Exclusividad</span>
+                            <h3 class="text-surface font-headline text-4xl mb-6">Catering corporativo</h3>
+                            <div class="max-h-[200px] overflow-hidden transition-all duration-700 opacity-100">
+                                <p class="text-surface/90 font-light text-base leading-relaxed">Transforma tus eventos corporativos en espacios de bienestar y conexión con una cocina de autor que proyecta la mejor imagen de tu empresa.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="chefs" class="py-32 md:py-56 px-8 bg-surface-bright border-t border-stone-100">
+            <div class="max-w-screen-xl mx-auto">
+                <div class="text-center mb-20">
+                    <span class="font-label text-secondary tracking-[0.3em] uppercase text-[10px] mb-8 block font-bold">Nuestros Chefs</span>
+                    <h2 class="font-headline text-5xl md:text-7xl text-primary leading-[0.9] uppercase">El Alma detrás de la Cocina</h2>
+                </div>
+                
+                <div class="grid md:grid-cols-12 gap-16 items-center">
+                    <div class="md:col-span-6">
+                        <div class="aspect-square rounded-3xl overflow-hidden shadow-2xl relative">
+                            <img src="https://images.unsplash.com/photo-1556910103-1c02745aae4d?auto=format&fit=crop&q=80&w=800" alt="Cami y Alex" class="w-full h-full object-cover">
+                        </div>
+                    </div>
+                    <div class="md:col-span-6 space-y-8">
+                        <div class="space-y-6">
+                            <h3 class="font-headline text-4xl text-primary uppercase">Cami & Alex</h3>
+                            <p class="text-on-surface-variant font-light text-lg leading-relaxed">
+                                Alex es un chef cuya cocina se nutre de técnicas y sabores recolectados en sus viajes por el mundo. Su propuesta se aleja de las tendencias para centrarse en una cocina basada en ingredientes únicos y de calidad, utilizando la fermentación como herramienta para crear sabores únicos y de carácter propio. 
+                            </p>
+                            <p class="text-on-surface-variant font-light text-lg leading-relaxed">
+                                Cami es una pastelera formada en Buenos Aires que busca el equilibrio perfecto, donde el dulce resalta el sabor real de los ingredientes. Su sensibilidad por el detalle trasciende a la decoración y el montaje de mesas, transformando cada espacio en una experiencia visual especial antes del primer bocado. 
+                            </p>
+                        </div>
+                        <div class="pt-8 border-t border-stone-200">
+                            <p class="text-on-surface font-body font-normal text-xl leading-relaxed italic border-l-4 border-secondary pl-6 py-2">
+                                "Juntos, combinan técnica, pasión y un ojo clínico para los detalles, creyendo profundamente en el impacto de lo que crean para COXION"
+                            </p>
+                            <a href="https://wa.link/2tw66l" target="_blank" class="inline-flex items-center gap-4 bg-primary text-on-primary px-10 py-5 rounded-full text-xs font-bold uppercase tracking-widest hover:bg-secondary transition-all mt-8">
+                                Habla con nosotros por WhatsApp
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section class="py-32 bg-surface-container-lowest px-8">
+            <div class="max-w-screen-xl mx-auto">
+                <span class="font-label text-secondary tracking-[0.3em] uppercase text-[10px] mb-8 block font-bold text-center">Testimonios</span>
+                <h2 class="font-headline text-5xl md:text-7xl text-primary leading-[0.9] text-center mb-24 uppercase">Lo que dicen nuestros invitados</h2>
+                
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8 overflow-x-auto pb-8 snap-x snap-mandatory md:overflow-visible hide-scrollbar">
+                    <div class="min-w-[85vw] md:min-w-0 snap-center bg-surface p-10 rounded-3xl border border-stone-100 shadow-xl">
+                        <img src="testimonios/IMG_3098.PNG" alt="Testimonio" class="w-full h-auto rounded-xl mb-6 shadow-md border border-stone-100">
+                        <div class="flex gap-1 text-secondary mb-6">
+                            <span class="material-symbols-outlined text-sm">star</span>
+                            <span class="material-symbols-outlined text-sm">star</span>
+                            <span class="material-symbols-outlined text-sm">star</span>
+                            <span class="material-symbols-outlined text-sm">star</span>
+                            <span class="material-symbols-outlined text-sm">star</span>
+                        </div>
+                        <p class="text-on-surface-variant font-light italic mb-8">"Una experiencia increíble. La atención al detalle y el sabor de cada plato fue excepcional."</p>
+                    </div>
+                    <div class="min-w-[85vw] md:min-w-0 snap-center bg-surface p-10 rounded-3xl border border-stone-100 shadow-xl md:mt-12">
+                        <img src="testimonios/IMG_3099.PNG" alt="Testimonio" class="w-full h-auto rounded-xl mb-6 shadow-md border border-stone-100">
+                        <div class="flex gap-1 text-secondary mb-6">
+                            <span class="material-symbols-outlined text-sm">star</span>
+                            <span class="material-symbols-outlined text-sm">star</span>
+                            <span class="material-symbols-outlined text-sm">star</span>
+                            <span class="material-symbols-outlined text-sm">star</span>
+                            <span class="material-symbols-outlined text-sm">star</span>
+                        </div>
+                        <p class="text-on-surface-variant font-light italic mb-8">"Coxión transformó nuestro evento. La presentación fue impecable y el sabor inigualable."</p>
+                    </div>
+                    <div class="min-w-[85vw] md:min-w-0 snap-center bg-surface p-10 rounded-3xl border border-stone-100 shadow-xl">
+                        <img src="testimonios/IMG_3100.PNG" alt="Testimonio" class="w-full h-auto rounded-xl mb-6 shadow-md border border-stone-100">
+                        <div class="flex gap-1 text-secondary mb-6">
+                            <span class="material-symbols-outlined text-sm">star</span>
+                            <span class="material-symbols-outlined text-sm">star</span>
+                            <span class="material-symbols-outlined text-sm">star</span>
+                            <span class="material-symbols-outlined text-sm">star</span>
+                            <span class="material-symbols-outlined text-sm">star</span>
+                        </div>
+                        <p class="text-on-surface-variant font-light italic mb-8">"Realmente pudimos disfrutar del momento con nuestros amigos mientras ellos se encargaban de todo."</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section id="gallery" class="py-32 bg-surface px-8">
+            <div class="max-w-screen-2xl mx-auto">
+                <span class="font-label text-secondary tracking-[0.3em] uppercase text-[10px] mb-8 block font-bold text-center">Galería</span>
+                <h2 class="font-headline text-5xl md:text-7xl text-primary leading-[0.9] text-center mb-24 uppercase">Instantes Coxión</h2>
+                
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8">
+                    <div class="aspect-[3/4] overflow-hidden rounded-2xl group shadow-lg">
+                        <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&q=80&w=600" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                    </div>
+                    <div class="aspect-[3/4] overflow-hidden rounded-2xl group shadow-lg md:translate-y-12">
+                        <img src="https://images.unsplash.com/photo-1550966842-2849a220272b?auto=format&fit=crop&q=80&w=600" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                    </div>
+                    <div class="aspect-[3/4] overflow-hidden rounded-2xl group shadow-lg">
+                        <img src="https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&q=80&w=600" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                    </div>
+                    <div class="aspect-[3/4] overflow-hidden rounded-2xl group shadow-lg md:translate-y-12">
+                        <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&q=80&w=600" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                    </div>
+                </div>
+                <!-- Extended Grid -->
+                <div class="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-8 mt-12 md:mt-32">
+                    <div class="aspect-video overflow-hidden rounded-2xl group shadow-lg md:col-span-2">
+                        <img src="https://images.unsplash.com/photo-1555244162-803834f70033?auto=format&fit=crop&q=80&w=1200" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                    </div>
+                    <div class="aspect-square overflow-hidden rounded-2xl group shadow-lg">
+                         <img src="https://images.unsplash.com/photo-1574484284002-952d92456975?auto=format&fit=crop&q=80&w=600" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Steps Section: How to create your experience -->
+        <section class="py-32 bg-surface px-8 overflow-hidden">
+            <div class="max-w-screen-xl mx-auto">
+                <div class="text-center mb-24">
+                    <h2 class="font-headline text-5xl md:text-7xl text-primary leading-[0.9] uppercase">¿Cómo crear tu experiencia?</h2>
+                </div>
+                
+                <div class="grid grid-cols-1 md:grid-cols-4 gap-12 text-center relative">
+                    <div class="space-y-6 relative z-10">
+                        <div class="w-16 h-16 bg-primary-container/20 rounded-full flex items-center justify-center mx-auto mb-8 animate-float">
+                            <span class="text-primary font-bold text-2xl">01</span>
+                        </div>
+                        <h4 class="font-bold text-xl uppercase tracking-widest text-primary">Nos escribes</h4>
+                    </div>
+                    <div class="space-y-6 relative z-10">
+                        <div class="w-16 h-16 bg-primary-container/20 rounded-full flex items-center justify-center mx-auto mb-8 animate-float" style="animation-delay: 1s">
+                            <span class="text-primary font-bold text-2xl">02</span>
+                        </div>
+                        <h4 class="font-bold text-xl uppercase tracking-widest text-primary">Armamos tu propuesta</h4>
+                    </div>
+                    <div class="space-y-6 relative z-10">
+                        <div class="w-16 h-16 bg-primary-container/20 rounded-full flex items-center justify-center mx-auto mb-8 animate-float" style="animation-delay: 2s">
+                            <span class="text-primary font-bold text-2xl">03</span>
+                        </div>
+                        <h4 class="font-bold text-xl uppercase tracking-widest text-primary">Concretamos el evento</h4>
+                    </div>
+                    <div class="space-y-6 relative z-10">
+                        <div class="w-16 h-16 bg-primary-container/20 rounded-full flex items-center justify-center mx-auto mb-8 animate-float" style="animation-delay: 3s">
+                            <span class="text-primary font-bold text-2xl">04</span>
+                        </div>
+                        <h4 class="font-bold text-xl uppercase tracking-widest text-primary">Disfrutas de tu experiencia</h4>
+                    </div>
+                    <!-- Connector line -->
+                    <div class="hidden md:block absolute top-8 left-1/4 right-1/4 h-[1px] bg-stone-200 -z-0"></div>
+                </div>
+
+                <div class="flex justify-center mt-24">
+                    <a href="https://wa.link/2tw66l" target="_blank" class="bg-primary text-on-primary px-16 py-6 rounded-full font-bold uppercase text-[10px] tracking-widest hover:bg-secondary transition-all shadow-xl border border-white/5">
+                        Escríbenos
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Newsletter Section -->
+        <section class="py-24 bg-secondary/10 px-8">
+            <div class="max-w-screen-md mx-auto text-center">
+                <span class="material-symbols-outlined text-secondary text-5xl mb-6">mail</span>
+                <h3 class="font-headline text-4xl text-primary mb-6 uppercase">Déjanos tu correo</h3>
+                <p class="text-on-surface-variant mb-10 text-lg font-light leading-relaxed">Recibe una guía gratuita para organizar una cena especial en casa, inspiración para tu cocina y acceso anticipado a nuestras fechas y promociones.</p>
+                <form class="flex flex-col md:flex-row gap-4">
+                    <input type="email" placeholder="Tu correo electrónico" class="flex-1 px-6 py-4 rounded-full border border-stone-300 focus:outline-none focus:ring-2 focus:ring-secondary/50">
+                    <button class="bg-primary text-on-primary px-10 py-4 rounded-full font-bold uppercase text-[10px] tracking-widest hover:bg-secondary transition-all shadow-lg">Suscribirme</button>
+                </form>
+            </div>
+        </section>
+
+        <section id="faqs" class="py-32 bg-surface px-8">
+            <div class="max-w-4xl mx-auto">
+                <span class="font-label text-secondary tracking-[0.3em] uppercase text-[10px] mb-8 block font-bold text-center">Resolviendo dudas</span>
+                <h2 class="font-headline text-5xl text-primary text-center mb-16 uppercase">Preguntas Frecuentes</h2>
+                
+                <div class="space-y-6">
+                    <details class="group bg-surface-container-lowest p-6 rounded-2xl border border-stone-200 transition-all duration-300 open:shadow-lg">
+                        <summary class="flex justify-between items-center cursor-pointer list-none">
+                            <span class="font-bold text-lg text-primary">¿Qué tipo de eventos hacen?</span>
+                            <span class="material-symbols-outlined transition-transform duration-300 group-open:rotate-180">expand_more</span>
+                        </summary>
+                        <p class="mt-4 text-on-surface-variant font-light leading-relaxed">
+                            Hacemos cenas privadas, eventos sociales y catering corporativo en Bogotá y sus alrededores.
+                        </p>
+                    </details>
+
+                    <details class="group bg-surface-container-lowest p-6 rounded-2xl border border-stone-200 transition-all duration-300 open:shadow-lg">
+                        <summary class="flex justify-between items-center cursor-pointer list-none">
+                            <span class="font-bold text-lg text-primary">¿Con cuánta anticipación debo reservar?</span>
+                            <span class="material-symbols-outlined transition-transform duration-300 group-open:rotate-180">expand_more</span>
+                        </summary>
+                        <p class="mt-4 text-on-surface-variant font-light leading-relaxed">
+                            Para experiencias de chef en casa mínimo 15 días antes y para eventos sociales y corporativos recomendamos hacerlo 3 meses antes.
+                        </p>
+                    </details>
+
+                    <details class="group bg-surface-container-lowest p-6 rounded-2xl border border-stone-200 transition-all duration-300 open:shadow-lg">
+                        <summary class="flex justify-between items-center cursor-pointer list-none">
+                            <span class="font-bold text-lg text-primary">¿Cuánto vale un evento con nosotros?</span>
+                            <span class="material-symbols-outlined transition-transform duration-300 group-open:rotate-180">expand_more</span>
+                        </summary>
+                        <p class="mt-4 text-on-surface-variant font-light leading-relaxed">
+                            El precio dependerá de las características de tu evento. Contáctanos y cotiza tu evento.
+                        </p>
+                    </details>
+
+                    <details class="group bg-surface-container-lowest p-6 rounded-2xl border border-stone-200 transition-all duration-300 open:shadow-lg">
+                        <summary class="flex justify-between items-center cursor-pointer list-none">
+                            <span class="font-bold text-lg text-primary">¿Cómo funciona el chef en casa?</span>
+                            <span class="material-symbols-outlined transition-transform duration-300 group-open:rotate-180">expand_more</span>
+                        </summary>
+                        <p class="mt-4 text-on-surface-variant font-light leading-relaxed">
+                            Es una experiencia privada para grupos de entre 4 y 12 personas. Diseñamos juntos una experiencia a tu medida, el día del evento cocinamos para ti y tus invitados. Cerramos nuestro servicio dejando tu cocina limpia y un gran momento para recordar.
+                        </p>
+                    </details>
+                </div>
+            </div>
+        </section>
+
+        <section id="inquiry" class="py-40 md:py-64 bg-primary text-on-primary text-center px-8 relative overflow-hidden">
+            <div class="absolute inset-0 opacity-20 pointer-events-none">
+                <div class="absolute top-0 left-0 w-[500px] h-[500px] bg-secondary rounded-full blur-[150px] animate-pulse"></div>
+                <div class="absolute bottom-0 right-0 w-[500px] h-[500px] bg-secondary-container rounded-full blur-[150px] animate-pulse"></div>
+            </div>
+            <div class="relative z-10 max-w-5xl mx-auto">
+                <h2 class="font-headline text-6xl md:text-9xl mb-16 leading-[0.85] tracking-tighter uppercase">Diseñemos juntos tu próxima experiencia gastronómica</h2>
+                <p class="font-body font-light text-2xl md:text-3xl mb-24 opacity-80 max-w-3xl mx-auto leading-relaxed">Permítenos diseñar la arquitectura sensorial de tu próximo encuentro.</p>
+                <div class="flex flex-col md:flex-row items-center justify-center gap-10">
+                    <a href="https://wa.link/2tw66l" target="_blank" class="w-full md:w-auto bg-surface text-primary px-16 py-8 rounded-full font-label tracking-[0.3em] uppercase text-[11px] font-black hover:bg-secondary-container hover:scale-105 transition-all duration-500 shadow-2xl">
+                        Crea tu experiencia
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-stone-950 text-stone-100 py-32 px-8 flex flex-col items-center text-center border-t border-white/5">
+        <div class="flex flex-col items-center gap-4 mb-12">
+            <img src="logos/logo-1.png" alt="Logo Coxión" class="h-24 md:h-32 w-auto brightness-0 invert opacity-90">
+        </div>
+        
+        <div class="flex flex-wrap justify-center gap-10 md:gap-16 mb-20">
+            <a class="text-stone-400 hover:text-secondary transition-all text-[10px] font-bold tracking-[0.2em] uppercase" href="https://wa.link/2tw66l" target="_blank">WhatsApp</a>
+            <a class="text-stone-400 hover:text-secondary transition-all text-[10px] font-bold tracking-[0.2em] uppercase" href="https://www.instagram.com/coxion.co?igsh=MTNiZGo4emE5dXNkdA==" target="_blank">Instagram</a>
+            <a class="text-stone-400 hover:text-secondary transition-all text-[10px] font-bold tracking-[0.2em] uppercase" href="https://www.tiktok.com/@coxion.co?_r=1&_t=ZS-95ks7teepLG" target="_blank">TikTok</a>
+            <a class="text-stone-400 hover:text-secondary transition-all text-[10px] font-bold tracking-[0.2em] uppercase" href="mailto:coxion.co@gmail.com">coxion.co@gmail.com</a>
+        </div>
+        
+        <div class="space-y-4 opacity-50">
+            <p class="text-[10px] tracking-[0.3em] uppercase">No es azar, es propósito</p>
+            <p class="text-xs font-light">© 2026 Coxión | Orquestado por <a href="http://dmentedigital.co/" target="_blank" class="font-bold hover:text-secondary transition-all">Dmente Digital</a>. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.link/2tw66l" 
+       class="fixed bottom-8 right-8 z-50 bg-[#25D366] text-white p-4 rounded-full shadow-2xl hover:scale-110 transition-transform duration-300 flex items-center justify-center group"
+       target="_blank" aria-label="Chat on WhatsApp">
+        <svg class="w-8 h-8 fill-current" viewBox="0 0 448 512"><path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.7 17.6 69.1 27 106.2 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18s-8.8-2.8-12.4 2.8-14.1 18-17.2 21.6-6.2 4.1-11.7 1.3c-5.5-2.8-23.3-8.5-44.4-27.4-16.4-14.6-27.5-32.7-30.7-38.2s-.3-8.4 2.5-11.1c2.5-2.5 5.5-6.4 8.3-9.7 2.8-3.3 3.7-5.5 5.5-9.2 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.4-29.9-17-41.1-4.5-10.9-9.1-9.4-12.4-9.5-3.2-.1-6.9-.1-10.6-.1-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 13.2 5.8 23.5 9.2 31.5 11.8 13.3 4.2 25.4 3.6 35 2.2 10.7-1.5 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"/></svg>
+        <span class="absolute right-full mr-4 bg-white text-on-surface py-2 px-4 rounded-lg shadow-xl text-sm font-bold opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none whitespace-nowrap">
+            Crea tu experiencia
+        </span>
+    </a>
+</body>
+</html>
